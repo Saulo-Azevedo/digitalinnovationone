@@ -22,6 +22,7 @@ fun main() {
     println(banco2.nome)
     println(banco2.numero)
 
+
     // print com funcão criada em banco com informações
     println(banco2.info())
 

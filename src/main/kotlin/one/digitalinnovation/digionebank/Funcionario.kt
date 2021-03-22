@@ -10,11 +10,13 @@ class Funcionario(
 ):Pessoa(nome, cpf) {
 
 }*/
-
-class Funcionario(
+// transformando uma classe em abstrata , aqui funcionario não uma isntancia , mas sim uma representação
+// de funcionario
+abstract class Funcionario(
     nome: String,
     cpf: String,
     val salario: BigDecimal
 ):Pessoa(nome, cpf) {
-
+    // adicionado uma funcao de calculo de salario
+    abstract fun calculoAuxilio():
 }
